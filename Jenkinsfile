@@ -9,13 +9,13 @@ pipeline {
             }
         }
 
-        stage('Run Python') {
+        stage('Run app.py') {
             steps {
                 bat '"C:\\Users\\yella\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
             }
         }
 
-        stage1('Run Python') {
+        stage('Run time.py') {
             steps {
                 bat '"C:\\Users\\yella\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" time.py'
             }

@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        stage('Run Python') {
+        stage1('Run Python') {
             steps {
                 bat '"C:\\Users\\yella\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" time.py'
             }
